@@ -59,7 +59,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="translate">
    <property name="geometry">
     <rect>
      <x>317</x>
@@ -69,7 +69,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Close</string>
+    <string>Translate</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
