@@ -12,10 +12,10 @@ class MyWindowClass(QtGui.QMainWindow, form_class):
         self.setupUi(self)
         self.fillcombo()
         self.translate.clicked.connect(self.initUI)
-        #self.initUI()
+        self.input.textChanged.connect(self.initUI)
 
     def initUI(self):
-        url = 'http://127.0.0.1:2737/translate?langpair=en|eo&q=%s' % (
+        url = 'http://127.0.0.1:2737/translate?langpair=%s|%s&q=%s' % (self.sourcelang.currentText(),self.targetlang.currentText(),
             self.input.toPlainText())
         response = json.loads(requests.get(url).text)['responseData']['translatedText']
         self.output.setText(response)
@@ -24,7 +24,6 @@ class MyWindowClass(QtGui.QMainWindow, form_class):
         url = 'http://localhost:2737/listPairs'
         response = json.loads(requests.get(url).text)['responseData']
         for x in response:
-            print(x)
             self.targetlang.addItem(x['targetLanguage'])
             self.sourcelang.addItem(x['sourceLanguage'])
 
