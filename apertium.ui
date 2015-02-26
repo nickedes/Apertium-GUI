@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>OUT-BOX</string>
+    <string>                                      OUT-BOX</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="output">

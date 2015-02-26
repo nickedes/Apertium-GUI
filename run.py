@@ -10,7 +10,7 @@ form_class = uic.loadUiType("apertium.ui")[0]
 # Todo: Find a better way of populating this list.
 key_lang = {
     "eng": "English",
-    "epo": "Esparantio"
+    "epo": "Esperanto"
 }
 
 # http://stackoverflow.com/a/19165996
