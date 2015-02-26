@@ -1,8 +1,6 @@
 # Apertium Translate GUI
 
-
-
-<!-- ![Screenshot](/screenshot.png) -->
+![Screencast](/screencast.gif)
 
 ## Table of Contents
 
