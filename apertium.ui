@@ -59,7 +59,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="translate">
+  <widget class="QPushButton" name="translated">
    <property name="geometry">
     <rect>
      <x>317</x>
