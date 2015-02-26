@@ -2,7 +2,7 @@
 
 ![Screencast](/screencast.gif)
 
-## Table of Contents
+<!-- ## Table of Contents
 
 * [Usage Instructions](#usage)
 * [Stuff to do](#todo)
@@ -12,3 +12,4 @@
 
 ## <a name="todo"></a>Todo
 
+ -->
